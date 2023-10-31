@@ -5,7 +5,7 @@ public:
     
     int dfs(vector<vector<int>>& grid, int i, int j, int& id, int& n) {
         grid[i][j] = id;
-        int c = 1;
+        int c = 2;
         for (int d = 0; d < 4; ++d) {
             int x = dx[d] + i;
             int y = dy[d] + j;
